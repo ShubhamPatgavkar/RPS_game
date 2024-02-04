@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Teko:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+img{
+
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.choices{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.choice{
+    display:flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 90%;
+    box-shadow: 6px 5px 15px 1.5px coral;
+}
+.rock:hover{
+    box-shadow: 0px 0px 20px 8px #dc7193;
+}
+.scissor:hover{
+    box-shadow: 0px 0px 20px 8px #77a1de;
+}
+.paper:hover{
+    box-shadow: 0px 0px 20px 8px #954da5;
+}
+
+.scores{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+.user{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+.comp{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+.msgcon{
+    margin-top: 4rem;
+}
+
+#msg{
+        text-align: center;
+        display: inline;
+        background-color: #081b31;
+        color: #fff;
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 1rem;
+}
